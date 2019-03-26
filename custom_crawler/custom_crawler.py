@@ -4,10 +4,12 @@ from bs4 import BeautifulSoup
 import json
 import os
 
-##  HTML GET Request
-req = requests.get('https://beomi.github.io/beomi.github.io_old/')
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
-##  HTML Soruce Get
+##  HTML GET Request
+req = requests.get('http://bbs.ruliweb.com/')
+
+##  HTML to Text
 html = req.text
 
 soup = BeautifulSoup(html, 'html.parser')
@@ -15,17 +17,22 @@ header = req.headers
 status = req.status_code
 is_ok = req.ok
 
-my_titles = soup.select(
-    'h3 > a'
-)
-
 if is_ok:
     print("Sucess")
 else:
     print("Failure")
 
-for title in my_titles:
-    ## Tag안의 텍스트
-    print(title.text)
-    ## Tag의 속성을 가져오기(ex: href속성)
-    print(title.get('href'))
+titles = soup.select(
+    'a'
+)
+
+data = {}
+
+for title in titles:
+    if  title.get('href') not in ('None', 'javascript', 'null'):
+        data[title.text] = title.get('href')
+
+    with open(os.path.join(BASE_DIR, 'result.json'), 'w+') as json_file:
+        json.dump(data, json_file)
+
+
