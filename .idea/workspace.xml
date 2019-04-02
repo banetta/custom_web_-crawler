@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5f558ae7-9e84-4b03-88f7-f89647ec4f10" name="Default Changelist" comment="first use requests and beautifulsoup">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chromedriver" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/custom_crawler/selenium_url.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/custom_crawler/custom_crawler.py" beforeDir="false" afterPath="$PROJECT_DIR$/custom_crawler/url.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/custom_crawler/result.json" beforeDir="false" />
-    </list>
+    <list default="true" id="5f558ae7-9e84-4b03-88f7-f89647ec4f10" name="Default Changelist" comment="first use requests and beautifulsoup" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,8 +32,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/custom_crawler/url.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-157">
-              <caret line="13" column="45" lean-forward="true" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="45" />
+            <state relative-caret-position="359">
+              <caret line="41" column="44" lean-forward="true" selection-start-line="41" selection-start-column="44" selection-end-line="41" selection-end-column="44" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -90,7 +83,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="723" />
@@ -232,7 +225,7 @@
       <workItem from="1553663037489" duration="1249000" />
       <workItem from="1553665907724" duration="711000" />
       <workItem from="1553667168020" duration="6425000" />
-      <workItem from="1553842977079" duration="5901000" />
+      <workItem from="1553842977079" duration="6138000" />
     </task>
     <task id="LOCAL-00001" summary="init project">
       <created>1553604616838</created>
@@ -252,7 +245,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19893000" />
+    <option name="totallyTimeSpent" value="20130000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -264,14 +257,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="723" extended-state="1" />
+    <frame x="0" y="23" width="1280" height="723" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4917647" visible="true" weight="0.19466881" />
-      <window_info id="Structure" order="1" sideWeight="0.5082353" side_tool="true" visible="true" weight="0.19466881" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49286845" visible="true" weight="0.19466881" />
+      <window_info id="Structure" order="1" sideWeight="0.5071315" side_tool="true" visible="true" weight="0.19466881" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49919224" weight="0.3280507" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49434572" visible="true" weight="0.32646593" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49434572" weight="0.32646593" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4983845" weight="0.39936608" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -356,8 +349,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/custom_crawler/url.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-157">
-          <caret line="13" column="45" lean-forward="true" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="45" />
+        <state relative-caret-position="359">
+          <caret line="41" column="44" lean-forward="true" selection-start-line="41" selection-start-column="44" selection-end-line="41" selection-end-column="44" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
